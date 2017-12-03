@@ -26,6 +26,52 @@
 
     <!-- BangJas style -->
     <link href="/css/bangjas.css?v=<?= rand(0, 9999) ?>" rel="stylesheet">
+    <style>
+    .controls {
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 300px;
+    }
+
+    #pac-input:focus {
+        border-color: #4d90fe;
+    }
+
+    .pac-container {
+        font-family: Roboto;
+    }
+
+    #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+    }
+
+    #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    #target {
+        width: 345px;
+    }
+    </style>
 </head>
 
 <body id="page-top">
@@ -46,7 +92,7 @@
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#kontak"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; Kontak</a>
-                    </li>                    
+                    </li>
                 </ul>
             </div>
         </div>
@@ -71,6 +117,7 @@
                     <div class="row mb-3">
                         <div class="col-md-12">
                             <div class="" style="height: 300px; width:100%;">
+                                <input id="pac-input" class="controls" type="text" placeholder="Search Box">
                                 <div id="map">
 
                                 </div>
@@ -119,7 +166,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        BangJAS adalah sebuah platform yang ditujukan untuk memudahkan masyarakat dalam menemukan sebuah toko yang menjual barang yang dibutuhkan.
+                        Dengan adanya BangJAS masyarakat akan dimudahkan dalam menemukan lokasi pedagang tanpa harus bingung mencari kesana kemari.
                     </p>
                 </div>
             </div>
@@ -133,12 +181,16 @@
             <div class="row">
                 <div class="col-lg-4 ml-auto">
                     <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        BangJAS meyediakan fitur premium untuk para pedagang yang ingin menjadi mitra kita. Salah satu keunggulan menjadi mitra dari BangJAS adalah meningkatkan penjualan dari pedagang itu sendiri
+                        karena BangJAS akan memprioritaskan para pedagang mitra untuk muncul di pencarian paling atas jika ditemukan banyak toko yang menjual barang yang sama. <br>
+                        Hubungi CS BangJAS untuk informasi mejadi mitra yang lebih lanjut.
                     </p>
                 </div>
                 <div class="col-lg-4 mr-auto">
                     <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; 0812-330-045-619 <br>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; CS@BangJAS.com <br>
+                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp; Sukolilo, Surabaya, Jawa Timur <br>
                     </p>
                 </div>
             </div>
@@ -161,7 +213,7 @@
                                     <label for="email" class="col-md-4 control-label">E-Mail Address</label>
 
                                     <div class="col-md-12">
-                                        <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required autofocus>
+                                        <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
 
                                         @if ($errors->has('email'))
                                             <span class="help-block">
@@ -257,7 +309,7 @@
                 <div class="col-md-4">
                     <h4 class="text-uppercase mb-4">Pengajuan Mitra</h4>
                     <p class="lead mb-0">
-                        BangJAS memberikan kemudahan pada pedagang untuk blablabla <br>
+                        BangJAS memberikan kemudahan pada pedagang untuk menjadi mitra, hubungi CS kami untuk informasi lebih lanjut<br>
                         <a href="mailto:bangjas?subject=pengajuan_mitra">cs@bangjas.com</a>.
                     </p>
                 </div>
@@ -267,7 +319,7 @@
 
     <div class="copyright py-4 text-center text-white">
         <div class="container">
-            <small>Copyright &copy; BangJas.dev and team - <?= date('Y') ?></small>
+            <small>Copyright &copy; BangJAS DEV Team - <?= date('Y') ?></small>
         </div>
     </div>
 
@@ -309,6 +361,63 @@
 
             geocoder = new google.maps.Geocoder();
 
+            var markers = [];
+
+            var input = document.getElementById('pac-input');
+            var searchBox = new google.maps.places.SearchBox(input);
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+            // Bias the SearchBox results towards current map's viewport.
+            map.addListener('bounds_changed', function() {
+                searchBox.setBounds(map.getBounds());
+            });
+
+            searchBox.addListener('places_changed', function() {
+                var places = searchBox.getPlaces();
+
+                if (places.length == 0) {
+                    return;
+                }
+
+                // Clear out the old markers.
+                markers.forEach(function(marker) {
+                    marker.setMap(null);
+                });
+                markers = [];
+
+                // For each place, get the icon, name and location.
+                var bounds = new google.maps.LatLngBounds();
+                places.forEach(function(place) {
+                    if (!place.geometry) {
+                        console.log("Returned place contains no geometry");
+                        return;
+                    }
+                    var icon = {
+                        url: place.icon,
+                        size: new google.maps.Size(71, 71),
+                        origin: new google.maps.Point(0, 0),
+                        anchor: new google.maps.Point(17, 34),
+                        scaledSize: new google.maps.Size(25, 25)
+                    };
+
+                    // Create a marker for each place.
+                    // markers.push(new google.maps.Marker({
+                    //     map: map,
+                    //     icon: icon,
+                    //     title: place.name,
+                    //     position: place.geometry.location
+                    // }));
+
+                    if (place.geometry.viewport) {
+                        // Only geocodes have viewport.
+                        bounds.union(place.geometry.viewport);
+                    } else {
+                        bounds.extend(place.geometry.location);
+                    }
+                });
+                map.fitBounds(bounds);
+            });
+
             marker = new google.maps.Marker({
                 map: map,
                 draggable: true,
@@ -322,7 +431,25 @@
                 $('#long').val(marker.position.lng());
                 geocodePosition(marker.getPosition());
                 console.log(marker.position);
-            })
+            });
+
+            google.maps.event.addListener(map, 'click', function(event) {
+                placeMarker(event.latLng);
+            });
+
+            function placeMarker(location) {
+                if (marker == undefined){
+                    marker = new google.maps.Marker({
+                        position: location,
+                        map: map,
+                        animation: google.maps.Animation.DROP,
+                    });
+                }
+                else{
+                    marker.setPosition(location);
+                }
+                map.setCenter(location);
+            }
 
             console.log(marker.position.lat());
         }
@@ -358,7 +485,7 @@
             }
         }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNKQdqKdPSHngzfG3wFZxA8eBZeZ9dmzs&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNKQdqKdPSHngzfG3wFZxA8eBZeZ9dmzs&callback=initMap&libraries=places"></script>
 
 </body>
 
