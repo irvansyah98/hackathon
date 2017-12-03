@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "axios": "^0.15.2",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.6.0",
+    "lodash": "^4.16.2",
+    "vue": "^2.0.1"
+  },
+  "name": "tes",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "ISC"
+}
