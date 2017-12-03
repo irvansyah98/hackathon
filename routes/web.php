@@ -11,13 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index');
+Route::get('/auth/logout', ['as' => 'logout', 'uses' => 'Auth\LoginController@logout']);
 
 Route::group(['prefix' => 'backend', 'namespace' => '\Backend', 'middleware' => ['auth', 'role:admin' ]], function() {
     Route::get('/', array('as' => 'backend.dashboard.index', 'uses' => 'DashboardController@index'));
@@ -27,3 +24,4 @@ Route::group(['prefix' => 'backend', 'namespace' => '\Backend', 'middleware' => 
     Route::resource('produk', 'ProdukController');
     Route::resource('ulasan_produk', 'UlasanProdukController');
 });
+// Route::get('/home', 'HomeController@index');

@@ -1,0 +1,47 @@
+.navbar-brand span {
+    font-weight: 300;
+}
+
+.img-head {
+    width: 35px;
+    margin-top: -5px;
+}
+
+.panel {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-cari-awal {
+    height: 70px;
+    font-size: 20px;
+}
+
+.label-cari {
+    color: black;
+}
+
+.btn-home-cari {
+    margin-top: 20px;
+}
+
+header.masthead {
+    padding-top: calc(3rem + 106px)!important;
+}
+
+.slogan {
+    padding-top: 60px;
+    font-size: 40px!important;
+}
+
+@media (max-width: 768px) {
+    .slogan {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+.txt-1 {
+    font-size: 18px;
+}
