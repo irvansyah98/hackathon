@@ -95,8 +95,8 @@
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <!-- Tentang Section -->
+    <section class="portfolio" id="tentang">
         <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0">Tentang <span style="color: #e8901e">BangJAS</span></h2>
             <hr class="star-dark mb-5">
@@ -110,46 +110,21 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="bg-primary text-white" id="kontak">
         <div class="container">
-            <h2 class="text-center text-uppercase text-white">About</h2>
+            <h2 class="text-center text-uppercase text-white">Kontak</h2>
             <hr class="star-light mb-5">
             <div class="row">
                 <div class="col-lg-4 ml-auto">
-                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p class="txt-1">
+                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
                 <div class="col-lg-4 mr-auto">
-                    <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p class="txt-1">
+                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                 </div>
-            </div>
-            <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
-          </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="bg-primary text-white mb-0" id="contact">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-white">Contact</h2>
-            <hr class="star-light mb-5">
-            <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
-          </a>
             </div>
         </div>
     </section>
@@ -159,44 +134,48 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">2215 John Daniel Drive
-                        <br>Clark, MO 65243</p>
+                    <h4 class="text-uppercase mb-4">Kantor Pusat</h4>
+                    <p class="lead mb-0">
+                        Keputih, Sukolilo, <br>
+                        Surabaya - Jawa Timur
+                    </p>
                 </div>
                 <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <h4 class="text-uppercase mb-4">Ikuti Kita</h4>
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
                             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-facebook"></i>
-                </a>
+                                <i class="fa fa-fw fa-facebook"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
+                                <i class="fa fa-fw fa-google-plus"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
+                                <i class="fa fa-fw fa-twitter"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
+                                <i class="fa fa-fw fa-linkedin"></i>
+                            </a>
                         </li>
                         <li class="list-inline-item">
                             <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-dribbble"></i>
-                </a>
+                                <i class="fa fa-fw fa-dribbble"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    <h4 class="text-uppercase mb-4">Pengajuan Mitra</h4>
+                    <p class="lead mb-0">
+                        BangJAS memberikan kemudahan pada pedagang untuk blablabla <br>
+                        <a href="mailto:bangjas?subject=pengajuan_mitra">cs@bangjas.com</a>.
+                    </p>
                 </div>
             </div>
         </div>
@@ -204,7 +183,7 @@
 
     <div class="copyright py-4 text-center text-white">
         <div class="container">
-            <small>Copyright &copy; BangJas.dev <?= date('y') ?></small>
+            <small>Copyright &copy; BangJas.dev and team - <?= date('Y') ?></small>
         </div>
     </div>
 

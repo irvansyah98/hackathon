@@ -2,10 +2,6 @@
     font-weight: 300;
 }
 
-.mb-0 {
-    font-size: 40px!important;
-}
-
 .img-head {
     width: 35px;
     margin-top: -5px;
@@ -36,6 +32,7 @@ header.masthead {
 
 .slogan {
     padding-top: 60px;
+    font-size: 40px!important;
 }
 
 @media (max-width: 768px) {
