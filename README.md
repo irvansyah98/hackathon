@@ -1,3 +1,0 @@
-# dtigabitpens
-# dtigabitpens
-# hackathon
