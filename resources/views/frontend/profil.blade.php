@@ -24,6 +24,8 @@
 
     <!-- BangJas style -->
     <link href="/css/bangjas.css?v=<?= rand(0, 9999) ?>" rel="stylesheet">
+    
+    
 </head>
 
 <body id="page-top">
@@ -50,66 +52,65 @@
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center" id="cari_barang">
-        <div class="container">
-            <!-- Gambar Lagi -->
-            <div class="row" style="margin-bottom: 20px;">
-                <div class="col-md-6 hidden-xs">
-                    <img class="img-fluid mb-5 mx-auto" src="/img/map.png" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h1 class="text-uppercase mb-0 slogan">Temukan barang yang kamu cari disini !!</h1>
-                </div>
-            </div>
-            <!-- Panel Pencarian -->
-            <form class="" action="" method="post">
-            <div class="panel panel-primary">
-                <div class="panel-body">
-                    <div class="row text-left">
-                        <div class="col-md-4">
-                            <!-- <div class="form-group"> -->
-                                <label for="" class="label-cari">Jenis Pencarian</label>
-                                <select class="form-control form-cari-awal" name="" style="height: 70px" required>
-                                    <option value="barang">Barang</option>
-                                    <option value="jasa">Jasa</option>
-                                </select>
-                            <!-- </div> -->
-                        </div>
-                        <div class="col-md-8">
-                            <!-- <div class="form-group"> -->
-                                <label for="" class="label-cari">Nama Barang/Jasa</label>
-                                <input type="text" class="form-control form-cari-awal" id="" placeholder="Cari barang/jasa di sekitar anda..." required>
-                            <!-- </div> -->
-                        </div>
-                        <div class="col-md-12 text-right">
-                            <button type="submit" class="btn btn-primary btn-lg btn-home-cari" name="submit"><i class="fa fa-search"></i>&nbsp; Cari Barang!</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </form>
-            <!-- <h1 class="text-uppercase mb-0">Start Bootstrap</h1> -->
-            <hr class="star-light" style="margin-top: 80px;">
-            <!-- <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2> -->
-        </div>
-    </header>
-
+    
     <!-- Tentang Section -->
-    <section class="portfolio" id="tentang">
+    <section class="portfolio" id="tentang" style="padding-top:200px;">
+        <h2 style="text-align:center">AKUN PROFIL</h2>
+        <br/><br/>
+        <div style="text-align:center">
+            <img src="https://cdn-images-1.medium.com/max/1600/1*xc_0s03n_klovPsWnc50dw.jpeg" width="20%" class="img-circle img-responsive" style="text-align:center;border-radius:100%"/>
+        </div>
+        <br/><br/>
+        <form class="form-horizontal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center"><label for="inputEmail3" class="col-sm-2 control-label">Username</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="email" class="form-control" id="inputEmail3" value="perterkambey">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center"><label for="inputPassword3" class="col-sm-2 control-label">Fullname</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="text" class="form-control" id="inputPassword3" value="Peter Jack Kambey">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Email</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="text" class="form-control" id="inputPassword3" value="peterkambey12@gmail.com">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="password" class="form-control" id="inputPassword3" value="1234">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </form>
+        <br/>
         <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">Tentang <span style="color: #e8901e">BangJAS</span></h2>
-            <hr class="star-dark mb-5">
             <div class="row">
-                <div class="col-md-12">
-                    <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                <div class="col-sm-12" style="text-align:center">
+                    <button type="submit" name="submit" class="btn btn-primary"style="margin-top:18px;cursor:pointer">Edit Profile</button>
                 </div>
             </div>
         </div>
+        <br/><br/>    
     </section>
 
+    <!--Kontak-->
     <section class="bg-primary text-white" id="kontak">
         <div class="container">
             <h2 class="text-center text-uppercase text-white">Kontak</h2>
@@ -204,6 +205,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="/js/freelancer.min.js"></script>
+    
+    <script src="/js/bangjas.js"></script>
 
 </body>
 

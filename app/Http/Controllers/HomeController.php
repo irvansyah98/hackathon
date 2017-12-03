@@ -23,10 +23,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $data = [
-            'page' => 'landing',
-        ];
+        return view('frontend.index');
+    }
 
-        return view('index', $data);
+    public function hasil()
+    {
+        return view('frontend.hasil_pencarian');
+    }
+
+    public function profil()
+    {
+        return view('frontend.profil');
     }
 }

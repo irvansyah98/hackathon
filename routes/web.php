@@ -10,10 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', 'HomeController@index');
-
 Auth::routes();
+Route::get('/', 'HomeController@index');
+Route::get('/hasil-pencarian', 'HomeController@hasil');
+Route::get('/profil', 'HomeController@profil');
+
+Route::get('/auth/login', ['as' => 'logout', 'uses' => 'Auth\LoginController@login']);
 Route::get('/auth/logout', ['as' => 'logout', 'uses' => 'Auth\LoginController@logout']);
 
 Route::group(['prefix' => 'backend', 'namespace' => '\Backend', 'middleware' => ['auth', 'role:admin' ]], function() {
@@ -24,4 +26,6 @@ Route::group(['prefix' => 'backend', 'namespace' => '\Backend', 'middleware' => 
     Route::resource('produk', 'ProdukController');
     Route::resource('ulasan_produk', 'UlasanProdukController');
 });
+
+
 // Route::get('/home', 'HomeController@index');
