@@ -8,8 +8,6 @@
 
     <title>BangJas - Teman mudah untuk mencari lokasi barang atau jasa</title>
 
-    <link rel="shortcut icon" type="image/png" href="/img/_icon.png"/>
-
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,6 +24,8 @@
 
     <!-- BangJas style -->
     <link href="/css/bangjas.css?v=<?= rand(0, 9999) ?>" rel="stylesheet">
+    
+    
 </head>
 
 <body id="page-top">
@@ -46,94 +46,71 @@
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#kontak"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; Kontak</a>
-                    </li>                    
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center" id="cari_barang">
-        <div class="container">
-            <!-- Gambar Lagi -->
-            <div class="row" style="margin-bottom: 20px;">
-                <div class="col-md-6 hidden-xs">
-                    <img class="img-fluid mb-5 mx-auto" src="/img/map.png" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h1 class="text-uppercase mb-0 slogan">Temukan barang yang kamu cari disini !!</h1>
-                </div>
-            </div>
-            <!-- Panel Pencarian -->
-            <form class="" action="" method="post">
-            <div class="panel panel-primary">
-                <div class="panel-body">
-                    <div class="row mb-3">
-                        <div class="col-md-12">
-                            <div class="" style="height: 300px; width:100%;">
-                                <div id="map">
-
-                                </div>
-                            </div>
-
-                            <input type="hidden" name="lat" id="lat" value="">
-                            <input type="hidden" name="long" id="long" value="">
-                            <input type="hidden" name="loc_name" id="loc_name" value="">
-                            <input type="hidden" name="loc_des" id="loc_des" value="">
-                        </div>
-                    </div>
-                    <div class="row text-left">
-                        <div class="col-md-4">
-                            <!-- <div class="form-group"> -->
-                                <label for="" class="label-cari">Jenis Pencarian</label>
-                                <select class="form-control form-cari-awal" name="" style="height: 70px" required>
-                                    <option value="barang">Barang</option>
-                                    <option value="jasa">Jasa</option>
-                                </select>
-                            <!-- </div> -->
-                        </div>
-                        <div class="col-md-8">
-                            <!-- <div class="form-group"> -->
-                                <label for="" class="label-cari">Nama Barang/Jasa</label>
-                                <input type="text" class="form-control form-cari-awal" id="" placeholder="Cari barang/jasa di sekitar anda..." required>
-                            <!-- </div> -->
-                        </div>
-                        <div class="col-md-12 text-right">
-                            <button type="submit" class="btn btn-primary btn-lg btn-home-cari" name="submit"><i class="fa fa-search"></i>&nbsp; Cari Barang!</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </form>
-            <!-- <h1 class="text-uppercase mb-0">Start Bootstrap</h1> -->
-            <hr class="star-light" style="margin-top: 80px;">
-            <!-- <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2> -->
-        </div>
-    </header>
-
+    
     <!-- Tentang Section -->
-    <section class="portfolio" id="tentang">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">Tentang <span style="color: #e8901e">BangJAS</span></h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+    <section class="portfolio" id="tentang" style="padding-top:200px;">
+        <h2 style="text-align:center">AKUN PROFIL</h2>
+        <br/><br/>
+        <div style="text-align:center">
+            <img src="https://cdn-images-1.medium.com/max/1600/1*xc_0s03n_klovPsWnc50dw.jpeg" width="20%" class="img-circle img-responsive" style="text-align:center;border-radius:100%"/>
+        </div>
+        <br/><br/>
+        <form class="form-horizontal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center"><label for="inputEmail3" class="col-sm-2 control-label">Username</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="email" class="form-control" disabled="disabled" id="inputEmail3" value="perterkambey">
+                    </div>
+                    <div class="col-sm-3"></div>
                 </div>
-                <div class="col-md-12 ml-auto text-center" id="login-register">
-                    <a href="/register" class="btn btn-outline-dark btn-lg">
-                        <i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp; Register
-                    </a>
-                    <a href="/login" class="btn btn-outline-dark btn-lg">
-                        <i class="fa fa-user" aria-hidden="true"></i>&nbsp; Login
-                    </a>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center"><label for="inputPassword3" class="col-sm-2 control-label">Fullname</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="text" class="form-control" disabled="disabled" id="inputPassword3" value="Peter Jack Kambey">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Email</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="text" class="form-control" disabled="disabled" id="inputPassword3" value="peterkambey12@gmail.com">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label></div>
+                    <div class="col-sm-3" style="text-align:center">
+                    <input type="password" class="form-control" disabled="disabled" id="inputPassword3" value="1234">
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </form>
+        <br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12" style="text-align:center">
+                    <button type="submit" name="submit" class="btn btn-primary"style="margin-top:18px;cursor:pointer">Edit Profile</button>
                 </div>
             </div>
         </div>
+        <br/><br/>    
     </section>
 
+    <!--Kontak-->
     <section class="bg-primary text-white" id="kontak">
         <div class="container">
             <h2 class="text-center text-uppercase text-white">Kontak</h2>
@@ -218,8 +195,6 @@
       </a>
     </div>
 
-    <!-- GMAPS API -->
-
     <!-- Bootstrap core JavaScript -->
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
@@ -230,75 +205,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="/js/freelancer.min.js"></script>
-
-    <script>
-
-        // The following example creates a marker in Stockholm, Sweden using a DROP
-        // animation. Clicking on the marker will toggle the animation between a BOUNCE
-        // animation and no animation.
-
-        var marker;
-        var geocoder;
-        var respon;
-
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: {lat: -7.2457901, lng: 112.735386}
-            });
-
-            geocoder = new google.maps.Geocoder();
-
-            marker = new google.maps.Marker({
-                map: map,
-                draggable: true,
-                animation: google.maps.Animation.DROP,
-                position: {lat: -7.2457901, lng: 112.735386}
-            });
-
-            marker.addListener('click', toggleBounce);
-            marker.addListener('dragend', function() {
-                $('#lat').val(marker.position.lat());
-                $('#long').val(marker.position.lng());
-                geocodePosition(marker.getPosition());
-                console.log(marker.position);
-            })
-
-            console.log(marker.position.lat());
-        }
-
-        function geocodePosition(pos) {
-            geocoder.geocode({
-                latLng: pos
-            }, function(responses) {
-                if (responses && responses.length > 0) {
-                    $('#loc_des').val(responses[0].formatted_address);
-                    // $('#loc_name').val(responses[0].address_components[7].long_name);
-                    respon = responses[0];
-                    if ( respon.address_components.length == 10 ) {
-                        $('#loc_name').val(responses[0].address_components[6].long_name);
-                    } else if ( respon.address_components.length == 8 ) {
-                        $('#loc_name').val(responses[0].address_components[4].long_name);
-                    } else if ( respon.address_components.length == 7 ) {
-                        $('#loc_name').val(responses[0].address_components[3].long_name);
-                    } else if ( respon.address_components.length == 6 ) {
-                        $('#loc_name').val(responses[0].address_components[2].long_name);
-                    }
-                } else {
-                    log('Cannot determine address at this location.');
-                }
-            });
-        }
-
-        function toggleBounce() {
-            if (marker.getAnimation() !== null) {
-                marker.setAnimation(null);
-            } else {
-                marker.setAnimation(google.maps.Animation.BOUNCE);
-            }
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNKQdqKdPSHngzfG3wFZxA8eBZeZ9dmzs&callback=initMap"></script>
+    
+    <script src="/js/bangjas.js"></script>
 
 </body>
 

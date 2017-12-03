@@ -29,4 +29,9 @@ class HomeController extends Controller
 
         return view('index', $data);
     }
+
+    public function hasil_pencarian()
+    {
+        # code...
+    }
 }

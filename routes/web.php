@@ -13,4 +13,9 @@
 
 Route::get('/', 'HomeController@index');
 
+Route::get('/hasil-pencarian', 'HasilPencarianController@index');
+
+Auth::routes();
+
+
 // Route::get('/home', 'HomeController@index');

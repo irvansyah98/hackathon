@@ -46,28 +46,213 @@
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#kontak"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; Kontak</a>
-                    </li>                    
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Header -->
-    <header class="masthead bg-primary text-white text-center" id="cari_barang">
+    <header class="masthead hasilpencarianhead bg-primary text-white" id="cari_barang">
         <div class="container">
-            <!-- Gambar Lagi -->
-            <div class="row" style="margin-bottom: 20px;">
-                <div class="col-md-6 hidden-xs">
-                    <img class="img-fluid mb-5 mx-auto" src="/img/map.png" alt="">
+            <h1 class="text-center text-uppercase mb-0">Hasil pencarian</h1>
+            <hr class="star-light mb-5">
+        </div>
+    </header>
+
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h1 class="text-uppercase mb-0 slogan">Temukan barang yang kamu cari disini !!</h1>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-item-list">
+                        <a href="#" class="a-item-list">
+                            <div class="card">
+                                <div class="item-body">
+                                    <div class="itb-image">
+                                        <img src="/img/item/cabin.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item-head">
+                                    <p>Peralatan Dapur</p>
+                                </div>
+                                <div class="item-footer">
+                                    <p>
+                                        Ditemukan di sekitar daerah Surabaya
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
+            <div class="row mb-0" style="margin-top: 20px;">
+                <div class="col-md-12">
+                    <p>
+                        Ditemukan 9 barang yang ada di sekitar anda
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary text-white text-center" id="tentang">
+        <div class="container">
             <!-- Panel Pencarian -->
             <form class="" action="" method="post">
             <div class="panel panel-primary">
                 <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12 text-left">
+                            <p style="color: black">Cari barang lagi yuk ...</p>
+                        </div>
+                    </div>
                     <div class="row mb-3">
                         <div class="col-md-12">
                             <div class="" style="height: 300px; width:100%;">
@@ -108,48 +293,6 @@
             <!-- <h1 class="text-uppercase mb-0">Start Bootstrap</h1> -->
             <hr class="star-light" style="margin-top: 80px;">
             <!-- <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2> -->
-        </div>
-    </header>
-
-    <!-- Tentang Section -->
-    <section class="portfolio" id="tentang">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">Tentang <span style="color: #e8901e">BangJAS</span></h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="col-md-12 ml-auto text-center" id="login-register">
-                    <a href="/register" class="btn btn-outline-dark btn-lg">
-                        <i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp; Register
-                    </a>
-                    <a href="/login" class="btn btn-outline-dark btn-lg">
-                        <i class="fa fa-user" aria-hidden="true"></i>&nbsp; Login
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-primary text-white" id="kontak">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-white">Kontak</h2>
-            <hr class="star-light mb-5">
-            <div class="row">
-                <div class="col-lg-4 ml-auto">
-                    <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="col-lg-4 mr-auto">
-                    <p class="txt-1">
-                        BangJAS adalah sebuah platform Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
         </div>
     </section>
 
